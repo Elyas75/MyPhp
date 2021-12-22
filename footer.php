@@ -1,6 +1,15 @@
-
-
 <main class="container">
+
+<div class="row"> 
+  <div class="col-md-4"></div>
+  <div class="col-md-4"></div>
+  <div class="col-md-4"></div>
+  <h5>Navigation</h5>
+  <ul class="list-unstyled text-small">
+    <?php require 'menu.php';?>
+  </ul>
+</div>
+
   <div class="bg-light p-5 rounded">
     <h1>Navbar example</h1>
     <p class="lead">This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll, this navbar remains in its original position and moves with the rest of the page.</p>

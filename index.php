@@ -1,9 +1,12 @@
 <?php 
-
 $title = "Page d'accueil";
-
 require 'header.php'; 
 ?>
+
+<pre>
+  <?php print_r($_SERVER);?>
+
+</pre>
 
   <div class="bg-light p-5 rounded">
     <h1>Navbar example</h1>
